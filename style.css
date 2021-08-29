@@ -1,19 +1,23 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: hsl(233, 47%, 7%);
+  background-color: hsl(0, 0%, 80%);
   font-size: 15px;
 }
 
 .container {
-  background-color: hsl(244, 38%, 16%);
   margin: 20% 10%;
   display: flex;
   border-radius: 10px;
+  box-shadow: 0 0 15px 1px black;
+  border-radius: 30px;
 }
 
 .section__left {
   width: 50%;
   padding: 100px;
+  background-color: hsl(244, 38%, 16%);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 h1 {
@@ -52,6 +56,7 @@ h3 {
   width: 50%;
   display: flex;
   position: relative;
+  background: transparent;
 }
 
 .section__right img {
@@ -70,6 +75,7 @@ h3 {
   position: absolute;
   z-index: 1;
   opacity: 0.8;
+  overflow: hidden;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
